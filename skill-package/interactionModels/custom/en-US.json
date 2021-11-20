@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fizz buzz game",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "GameIntent",
+          "slots": [
+            {
+              "name": "number",
+              "type": "NumberType"
+            }
+          ],
+          "samples": [
+            "{number}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "fallback"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "divisibleByBoth"
+              }
+            },
+            {
+              "name": {
+                "value": "divisibleByFive"
+              }
+            },
+            {
+              "name": {
+                "value": "divisibleByThree"
+              }
+            }
+          ],
+          "name": "NumberType"
+        }
+      ]
+    }
+  },
+  "version": "26"
+}

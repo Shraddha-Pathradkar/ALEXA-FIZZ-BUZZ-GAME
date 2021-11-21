@@ -115,7 +115,7 @@ const GameIntentHandler = {
     handlerInput.attributesManager.setSessionAttributes(attributes);
 
     return handlerInput.responseBuilder
-      .speak(speakOutput + "\n" + extraOutput)
+      .speak(speakOutput + extraOutput)
       .withShouldEndSession(isSessionEnd)
       .getResponse();
   },

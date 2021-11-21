@@ -2,6 +2,9 @@
 
 This module is a simple Alexa skill that allows users to play the famous interactive math game known as "Fizz Buzz".
 
+Welcome to Fizz Buzz. Player and alexa each take turns counting up from one. Player must replace numbers divisible by 3 with the word “fizz” and numbers divisible by 5 with the word “buzz”. If a number is divisible by both 3 and 5,  instead say “fizz buzz”. If you get one wrong, you lose. 
+
+
 **_To run the skill _**
 
 1. Start by saying/ writing "open fizz buzz game".
